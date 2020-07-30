@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{667188e1-c0f7-4db3-b629-c47acae436b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{4a2330ce-2554-4376-9d78-c3f0f57fe3ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\OpenGLDir\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\includes\engineHelper.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\includes\std_image.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\camera.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\engineHelper.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\geometryGenerator.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\lightAttributes.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\mesh.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\model.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\Shader.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\stb_image.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\std_image.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\includes\drawHelper.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\shaders\Master\6.ClrNormalShader.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\6.ClrNormalShader.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\6.ClrShader.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\6.ClrShader.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\6.TexNormalShader.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\6.TexNormalShader.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\6.TexShader.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\6.TexShader.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\11.ClrShader.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\11.ClrShader.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\11.lightingShader.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\shaders\Master\11.lightingShader.vs">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
